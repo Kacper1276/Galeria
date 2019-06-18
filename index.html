@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zdjęcia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main_photo">
+        <img src="pies1.jpg" id="main">
+    </div>
+    
+    <section id="photos">
+    
+    <div id="ph1"><img src="kot1.jpg" id="cat1" onclick="zmien(1)"></div>
+    <div id="ph2"><img src="pies1.jpg" id="cat2" onclick="zmien(2)"></div>
+    <div id="ph3"><img src="pies2.jpg" id="dog" onclick="zmien(3)"></div>
+    
+    </section>
+    
+    <script>
+        const zmien = (x) =>{
+                 if(x==1){
+            document.querySelector("#main").src = "kot1.jpg"
+        }
+            else if(x==2){
+                document.querySelector("#main").src = "pies1.jpg"
+            }
+            else{
+                document.querySelector("#main").src = "pies2.jpg"
+            }
+        }
+
+    </script>
+    
+</body>
+</html>

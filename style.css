@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+#main_photo{
+    height: 400px;
+    width: 600px;
+    border:1px solid black;
+}
+#ph1{
+    height: 100px;
+    width: 180px;
+    border: 1px solid black;
+    position: absolute;
+    top: 58%;
+    left: 30.4%;
+}
+#ph2{
+    height: 100px;
+    width: 180px;
+    border: 1px solid black;
+    position: absolute;
+    top: 58%;
+    left: 44.4%;
+}
+#ph3{
+    height: 100px;
+    width: 180px;
+    border: 1px solid black;
+    position: absolute;
+    top: 58%;
+    left: 58.4%;
+}
+#cat2{
+    height: 100px;
+    width: 180px;
+}
+#cat1{
+    height: 100px;
+    width: 180px;
+}
+#dog{
+    height: 100px;
+    width: 180px;
+}
